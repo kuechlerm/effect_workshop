@@ -1,0 +1,37 @@
+{
+	"name": "effect",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --plugin-search-dir . --check . && eslint .",
+		"format": "prettier --plugin-search-dir . --write .",
+		"update:all": "pnpm -r up -i -L"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "2.1.0",
+		"@sveltejs/kit": "1.23.0",
+		"@typescript-eslint/eslint-plugin": "6.4.1",
+		"@typescript-eslint/parser": "6.4.1",
+		"autoprefixer": "10.4.14",
+		"effect": "2.0.0-next.29",
+		"eslint": "8.47.0",
+		"eslint-config-prettier": "8.5.0",
+		"eslint-plugin-svelte": "2.33.0",
+		"postcss": "8.4.24",
+		"postcss-load-config": "4.0.1",
+		"prettier": "2.8.0",
+		"prettier-plugin-svelte": "2.10.1",
+		"svelte": "4.2.0",
+		"svelte-check": "3.5.0",
+		"tailwindcss": "3.3.2",
+		"tslib": "2.6.2",
+		"typescript": "5.1.6",
+		"vite": "4.4.9"
+	},
+	"type": "module"
+}
