@@ -1,9 +1,6 @@
-
 ## Setup
 - npm / pnpm install
 - npm / pnpm run dev
-
-
 
 ## Ablauf
 - Erinnerung: was ist Functional Programming?
@@ -28,21 +25,7 @@
   - Immutability
 - Was ist Effect?
     - functional patterns, using typescript, batteries included
-    - Features
-        - Composability
-            Construct highly maintainable, readable, and flexible software through the use of small, reusable building blocks.
-        - Type Safety
-            Leverage the TypeScript type system to the fullest with Effect's focus on type inference and type safety.
-        - Asynchronicity
-            Write code that looks the same, whether it is synchronous or asynchronous.
-        - Error Handling
-            Handle errors in a structured and reliable manner using Effect's built-in error handling capabilities.
-        - Concurrency
-            Achieve highly-scalable, ultra low-latency applications through Effect's fiber-based concurrency model.
-        - Resource Safety
-            Safely manage acquisition and release of resources, even when your program fails.
-        - Observability
-            With full tracing capabilities, you can easily debug and monitor the execution of your Effect program.
+    - Features: https://effect.website/
 
 ## Aufgabenstellung
 - Projekt "Projekt A" per API abholen
@@ -56,27 +39,11 @@
 ## Übungen
 1. Käse
 2. Aufräumen
-   - types
-   - functions
 3. Sichern
 4. Effect Basics
 5. Effect nutzen
 
-- Beispiele
-  - kack functions verbessern
-    - Logik + API-Zugriffe zusammen in Svelte-Component
-    - -> Fehlerbehandelung hinzufügen
-      - trycatch (Fehler-Flag + result in Store)
-      - Fehler: Verbindung wackelig (retry?), falscher-input, Auth?
-    - -> Logik in Store verschieben
-    - -> Logik von API-Zugriffe trennen, Zugriffe aufteilen
-    - -> Fehlerbehandlung hinzufügen
-  - Effect erstellen und laufen lassen
-  - Effect mit Fehler laufen lassen und Fehlermeldung anzeigen
-  - mehrere function calls mit unterschiedlichen Fehlern
-
-
-
+## Bonus
 ```typescript
 type Immutable<TObject> = {
 	readonly [TKey in keyof TObject]:
